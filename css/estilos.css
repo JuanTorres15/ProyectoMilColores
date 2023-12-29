@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&family=Hind+Siliguri&family=Roboto+Condensed:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Comienzo del header*/
+
+.header{
+    background: #ffffff;
+    background: linear-gradient(90deg,#ffffff 0%, #000000 7 %);
+    background: -webkit-linear-gradient(90deg,#ffffff 0%, #000000 7%);
+    background: -moz-linear-gradient(90deg,#ffffff 0%, #000000 7%);
+}
+
+.link_nav{
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link_nav:hover{
+    color: #838383;
+}
+
+.bandera_venezuela{
+    width: 70px;
+    margin-left: 20px;
+}
+
+.ig{
+    font-size: 2rem;
+    color: rgba(255, 0, 157, 0.671);
+}
+
+.ig:hover{
+    color: white;
+}
+.wsp{
+    font-size: 2rem;
+    color: rgb(135, 224, 0);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.wsp:hover{
+    color: white;
+}
+
+/*Contenido para el carrito*/
+
+.boton{
+    margin-left: 50px;
+}
+
+.boton:hover{
+    color: #000000;
+}
+
+#img-carrito{
+    cursor: pointer;
+}
+
+.submenu{
+    position: relative;
+}
+
+.submenu #carrito{
+    display: none;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.ul{
+    list-style: none;
+}
+
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .u-pull-right {
+    float: right;
+  }
+  .u-pull-left {
+    float: left;
+}
+
+/*botones*/
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #fff;
+  background-color: #33c3f0;
+  border-color: #33c3f0;
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #fff;
+  background-color: #1eaedb;
+  border-color: #1eaedb;
+}
