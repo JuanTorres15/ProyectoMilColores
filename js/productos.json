@@ -1,0 +1,43 @@
+[
+    {
+        "id": "Foami-01",
+       "titulo": "Foami Liso Rojo",
+        "imagen": "./img/foami_liso.jpg",
+       "categoria": {
+           "nombre": "Foami Liso",
+            "id": "foami_liso"
+        },
+       "precio": 20
+    },
+    {
+        "id": "Foami-02",
+       "titulo": "Foami Liso Azul",
+        "imagen": "./img/foami_liso.jpg",
+       "categoria": {
+           "nombre": "Foami Liso",
+            "id": "foami_liso"
+        },
+       "precio": 20
+    },
+    {
+        "id": "Foami-03",
+       "titulo": "Foami Escarchado Rojo",
+        "imagen": "./img/foami_liso.jpg",
+       "categoria": 
+        {
+           "nombre": "Foami Escarchado",
+            "id": "foami_escarchado"
+        },
+       "precio": 20
+    },
+    {
+        "id": "Foami-04",
+       "titulo": "Foami Escarchado Azul",
+        "imagen": "./img/foami_liso.jpg",
+       "categoria": {
+           "nombre": "Foami Escarchado",
+            "id": "foami_escarchado"
+        },
+       "precio": 20
+    }
+]
